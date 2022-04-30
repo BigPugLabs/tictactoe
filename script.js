@@ -101,17 +101,8 @@ class Game {
 
   }
 }
+
 //create game object
 const currentGame = new Game()
 currentGame.register()
 //currentGame.getBoardState()
-//test even listeners
-//document.querySelector('#one').addEventListener('click', currentGame.run)
-//document.querySelector('#two').addEventListener('click', currentGame.run)
-//document.querySelector('#three').addEventListener('click', currentGame.run)
-//document.querySelector('#four').addEventListener('click', currentGame.run)
-//document.querySelector('#five').addEventListener('click', currentGame.run)
-//document.querySelector('#six').addEventListener('click', currentGame.run)
-//document.querySelector('#seven').addEventListener('click', currentGame.run)
-//document.querySelector('#eight').addEventListener('click', currentGame.run)
-//document.querySelector('#nine').addEventListener('click', currentGame.run)
