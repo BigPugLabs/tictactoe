@@ -19,6 +19,8 @@ class Game {
 
     this.currentTurn = 1 // player1 vs player2, "O" vs "X",
     this.boardState = [["", "", ""], ["", "", ""], ["", "", ""]]
+
+    this.register()
   }
 
   register() {
@@ -104,5 +106,4 @@ class Game {
 
 //create game object
 const currentGame = new Game()
-currentGame.register()
 //currentGame.getBoardState()
