@@ -1,0 +1,78 @@
+* {
+    box-sizing:border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: rgba(88, 122, 103, 0.8);
+}
+
+h1{
+  text-align: center;
+  height: 50%;
+  font-size: 4rem;
+  line-height: 2rem;
+  text-decoration: underline;
+  display: block;
+}
+
+.border{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.field {
+  height: 200px;
+  width: 200px;
+  font-size: 8rem;
+}
+
+#one {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#two {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#three {
+  border-bottom: 5px solid black;
+}
+
+#four {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#five{
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#six{
+  border-bottom: 5px solid black;
+}
+
+#seven{
+  border-right: 5px solid black;
+}
+
+#eight{
+  border-right: 5px solid black;
+}
+
+#nine{
+  display: block;
+}
